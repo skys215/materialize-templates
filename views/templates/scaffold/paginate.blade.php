@@ -1,0 +1,1 @@
+@@include('materialize-templates::common.paginate', ['records' => ${!! $config->modelNames->camelPlural !!}])
