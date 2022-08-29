@@ -19,7 +19,7 @@
           </a>
       </div>
       <div class="col">
-        @{!! Form::submit(@if($config->options->localized) @@lang('crud.save') @else 'Save' @endif, ['class' => 'btn blue']) !!}
+        @{!! Form::submit(@if($config->options->localized) __('crud.save') @else 'Save' @endif, ['class' => 'btn blue']) !!}
       </div>
     </div>
   @{!! Form::close() !!}
